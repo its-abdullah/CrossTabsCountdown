@@ -1,7 +1,8 @@
 # Cross-Tabs Countdown
-A small JS script that creates a countdown which works cross browser tabs.
-The library uses the [Browser API localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). And handles localStorage modification by recounting down the time left.
-I needed it to countdown the session timeout.
+A small JavsScript script that creates a countdown which works across browser tabs. It provides on-start and on-end events. And handles countdown updates by recounting down the remaining time.
+The library uses the [Browser API's localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
+
+The script was needed to countdown session timeout.
 
 ## Options
 | Part Type | Required | Type     | Description                | Default     |
